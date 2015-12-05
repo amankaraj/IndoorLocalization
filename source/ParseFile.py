@@ -89,7 +89,9 @@ def foo(listLinesFile,listRows):
 #                 sp = line.split(":")
 #                 dictRow["Loc"] =
 #
-#         print "------------"
+#         print "--Checking Git commits---"
+#
+#
 #             #splitLine = line.rstrip()
 #             # x = re.findall('^EDGE Cell.*: [0-9.]+', line)
 #             # x = re.findall(r'\d+',line)
@@ -100,7 +102,8 @@ def foo(listLinesFile,listRows):
 
 
 def getTrainingData():
-    allRows = readAllFiles("/Users/Aman/Desktop/Projects/IndoorLocalization/Data/")
+    # allRows = readAllFiles("/Users/Aman/Desktop/Projects/IndoorLocalization/Data/")
+    allRows = readAllFiles("C:/Users/Anshul/Desktop/Courses/Wireless/IndoorLocalization/IndoorLocalization/Data")
 
     trainingData = []
     for dictR in allRows:
