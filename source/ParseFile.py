@@ -97,9 +97,7 @@ def foo(listLinesFile,listRows):
 #             #     # p = x[0].split(" ")
 #             #     # print p
 #             #     print x
-#
-#
-#
+
 
 def getTrainingData():
     allRows = readAllFiles("/Users/Aman/Desktop/Projects/IndoorLocalization/Data/")
